@@ -13,7 +13,7 @@ import com.example.guia11_formularios_validaciones.viewmodel.UsuarioViewModel
 fun AppNavigation() {
     val navController = rememberNavController()
 
-    // 🔴 Aquí creamos el ViewModel una sola vez
+    //  Aquí creamos el ViewModel una sola vez
     val usuarioViewModel: UsuarioViewModel = viewModel()
 
     NavHost(
